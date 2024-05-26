@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" />
+
+        <style>
+            @keyframes slideInFromLeft {
+                0% {
+                    transform: translateX(-50%);
+                    opacity: 0;
+                }
+                100% {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+    
+            .animated {
+                animation: slideInFromLeft 0.5s ease-in-out;
+            }
+    
+        </style>
+</head>
+
+<body class="font-sans antialiased bg-gray-200">
+    <header class="text-center py-8 bg-blue-900 text-white">
+        <h1 class="text-4xl font-bold mb-2">YOUR NAME</h1>
+        <div class="flex items-center justify-center">
+            <div class="w-16 h-px bg-white"></div>
+            <h2 class="text-xl font-semibold mx-2">YOUR TITLE</h2>
+            <div class="w-16 h-px bg-white"></div>
+        </div>
+    </header>
+    <main class="container mx-auto py-12 bg-blue-100 animated">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-md p-6 animated">
+                <section class="mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">CONTACT</h3>
+                    <hr class="border-gray-300 mb-4">
+                    <p><i class="fas fa-envelope mr-2"></i> <a href="mailto:your-email@example.com"
+                            class="text-blue-500">your-email@example.com</a></p>
+                    <p><i class="fab fa-github mr-2"></i> <a href="https://github.com/gh-username"
+                            class="text-blue-500" target="_blank">gh-username</a></p>
+                    <p><i class="fab fa-linkedin mr-2"></i> <a href="https://www.linkedin.com/in/linkedin-username"
+                            class="text-blue-500" target="_blank">linkedin-username</a></p>
+                </section>
+                <section class="mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">SKILLS</h3>
+                    <hr class="border-gray-300 mb-4">
+                    <p class="text-lg">HTML, CSS, GitHub, VS Code...</p>
+                </section>
+                <section class="mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">EDUCATION</h3>
+                    <hr class="border-gray-300 mb-4">
+                    <p class="text-lg">YOUR MAJOR</p>
+                    <p>Your university or school</p>
+                    <p>2018-2022</p>
+                </section>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-6 animated">
+                <section class="mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">ABOUT</h3>
+                    <hr class="border-gray-300 mb-4">
+                    <p class="text-lg">A brief paragraph about you and what kind of company you want to work for.</p>
+                </section>
+                <section class="mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">WORK EXPERIENCE</h3>
+                    <hr class="border-gray-300 mb-4">
+                </section>
+                <section class="mb-8">
+                    <h4 class="text-xl font-semibold mb-2">JOB TITLE</h4>
+                    <hr class="border-gray-300 mb-4">
+                    <div>
+                        <p class="text-lg mb-4">Company Name | 2008 - 2010<br>
+                            Describe what you did in this position with one summary sentence and no more than 3 bullet
+                            points with specific highlights</p>
+
+                        <ul class="list-disc ml-8">
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
